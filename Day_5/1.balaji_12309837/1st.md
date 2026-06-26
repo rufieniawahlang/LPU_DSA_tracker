@@ -1,0 +1,19 @@
+# Count vowels and consonants in Python
+
+```python
+word = input("Enter a word or sentence: ").strip()
+
+vowels = set("aeiou")
+vowel_count = 0
+consonant_count = 0
+
+for letter in word.lower():
+    if letter.isalpha():
+        if letter in vowels:
+            vowel_count += 1
+        else:
+            consonant_count += 1
+
+print("Vowels =", vowel_count)
+print("Consonants =", consonant_count)
+```

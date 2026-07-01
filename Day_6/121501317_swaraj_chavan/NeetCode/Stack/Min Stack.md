@@ -29,7 +29,5 @@
         while len(tmp):
             self.stack.append(tmp.pop())
 
-        return mini 
-        
-
+        return mini
  ```
